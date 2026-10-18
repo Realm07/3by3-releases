@@ -1,0 +1,4 @@
+# The APK goes out as a release asset, never into git history: a release
+# asset inherits this repo's public visibility, and 107 MB in the objects
+# would be permanent — and unrecoverable without a history rewrite to fix.
+*.apk
